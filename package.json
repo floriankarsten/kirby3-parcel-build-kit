@@ -1,0 +1,16 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel watch ./src/css/style.scss ./src/js/main.js -d ./htdocs/public/assets --public-url /assets",
+    "build": "parcel build --no-content-hash ./src/css/style.scss ./src/js/main.js -d ./htdocs/public/assets --public-url /assets"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "*",
+    "autoprefixer": "*",
+    "parcel-bundler": "^1.12.4",
+    "sass": "*",
+    "tailwindcss": "*"
+  }
+}

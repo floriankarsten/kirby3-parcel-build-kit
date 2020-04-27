@@ -1,0 +1,51 @@
+# You might wanna uncomment this
+# /content
+
+# Kirby source
+/kirby/
+/vendor/
+
+
+
+
+# System files
+# ------------
+
+Icon
+.DS_Store
+
+# Temporary files
+# ---------------
+
+/public/media/*
+!/public/media/index.html
+
+# Lock files
+# ---------------
+.lock
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# Cache Files
+# ---------------
+
+/storage/cache/*
+!/storage/cache/index.html
+
+# Accounts
+# ---------------
+
+/storage/accounts/*
+!/storage/accounts/index.html
+
+# Sessions
+# ---------------
+
+/storage/sessions/*
+!/storage/sessions/index.html
+
+# License
+# ---------------
+/storage/config/.license
