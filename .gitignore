@@ -9,3 +9,9 @@ npm-debug.log*
 
 # Dependency directories
 node_modules/
+
+# Parcel cache
+.cache
+
+# Package json lock
+package-lock.json
