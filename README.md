@@ -10,3 +10,5 @@ To get you started 5 step procedure.
 ```
 
 Then point your webserver to ```htodcs/public``` folder.
+
+In package.json there are scripts to run most notably for watching development ```npm run dev``` and for building to production ```npm run build```.
